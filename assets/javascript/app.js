@@ -65,7 +65,7 @@ function displayGiphys(placeholder) {
                 topicGiphy.addClass('giphy');
             var rating = results[i].rating;
             var p = $('<p>').text('Rating: ' + rating);
-            giphyDiv.append(topicGiphy);//testing this it was originally prepend
+            giphyDiv.append(topicGiphy);
             giphyDiv.append(p);
             $("#giphyView").prepend(giphyDiv);
             console.log(response)
